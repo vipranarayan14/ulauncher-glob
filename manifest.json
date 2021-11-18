@@ -1,0 +1,18 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Glob",
+  "description": "Search files using python glob. Note: This creates a file named '.ulauncher-glob-index' in your home directory.",
+  "developer_name": "Prasanna Venkatesh T S",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 1
+  },
+  "preferences": [
+    {
+      "id": "keyword",
+      "type": "keyword",
+      "name": "Find files",
+      "default_value": "g"
+    }
+  ]
+}
